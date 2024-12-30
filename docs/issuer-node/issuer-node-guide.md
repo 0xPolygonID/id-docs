@@ -58,7 +58,7 @@ You can create your own schemas and import them to the Issuer Node. Here's how y
 
 ## Credentials
 
-The Credentials main page shows information about all the credentials that have been granted. Each of one those credentials can be revoked by clicking on the 3 dots at the end of the row.
+The Credentials main page shows information about all the credentials that have been granted. Each of those credentials can be revoked by clicking on the 3 dots at the end of the row.
 
 <div align="center">
     <img src= "/img/credential-main.png" align="center" width="1000" height="1000"/>

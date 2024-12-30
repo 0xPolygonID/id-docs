@@ -21,7 +21,7 @@ To migrate to the Amoy testnet, developers must set up a new Issuer node configu
 1. Setting up a new Issuer node using the latest configuration guidelines.
 
    - To set up a new issuer node, please refer to [this installation guide](https://github.com/0xPolygonID/issuer-node/tree/develop). It includes the latest configuration for the Amoy testnet.
-   - An Issuer will need to create a new identity for Amoy, through the core API specifying the proper "network": "amoy". If you do it with the make generate-issuer-did command, then the program will ge the variables from the .env files that must be properly filled. (.env-samples are available at [Issuer Node GitHub repository](https://github.com/0xPolygonID/issuer-node/tree/main)).
+   - An Issuer will need to create a new identity for Amoy, through the core API specifying the proper "network": "amoy". If you do it with the make generate-issuer-did command, then the program will get the variables from the .env files that must be properly filled. (.env-samples are available at [Issuer Node GitHub repository](https://github.com/0xPolygonID/issuer-node/tree/main)).
    - Here you can find more details about issuer configuration ([advanced Issuer Node configuration](https://devs.polygonid.com/docs/issuer/issuer-configuration)).
 
 2. Deprecating and shutting down existing Issuer nodes configured for the Mumbai testnet.

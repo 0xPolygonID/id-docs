@@ -2,7 +2,7 @@
 id: save-claims
 title: Save credentials
 sidebar_label: Save Credentials
-description: Store a list of ClaimEntity associated with an identity in the the Polygon ID Sdk.
+description: Store a list of ClaimEntity associated with an identity in the Polygon ID Sdk.
 keywords:
   - docs
   - polygon id
@@ -14,7 +14,7 @@ keywords:
   - credential
 ---
 
-Store a list of `ClaimEntity` in the the Polygon ID SDK associated to an identity.
+Store a list of `ClaimEntity` in the Polygon ID SDK associated to an identity.
 
 ```dart
 Future<List<ClaimEntity>> saveClaims(

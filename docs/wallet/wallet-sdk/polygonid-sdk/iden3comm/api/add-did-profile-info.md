@@ -25,7 +25,7 @@ Future<void> addDidProfileInfo({
 });
 ```
 
-`did` is the DID we interactedd with.
+`did` is the DID we interacted with.
 
 The `privateKey` is the key used to access all the sensitive information from the identity and also to realize operations like generating proofs.
 
