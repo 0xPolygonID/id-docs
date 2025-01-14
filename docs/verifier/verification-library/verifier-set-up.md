@@ -170,9 +170,6 @@ uri := fmt.Sprintf("%s%s?sessionId=%s", rURL, CallbackURL, strconv.Itoa(sessionI
 // Generate request for basic authentication
 var request protocol.AuthorizationRequestMessage = auth.CreateAuthorizationRequest("test flow", Audience, uri)
 
-request.ID = "7f38a193-0918-4a48-9fac-36adfdb8b542"
-request.ThreadID = "7f38a193-0918-4a48-9fac-36adfdb8b542"
-
 // Add request for a specific proof
 var mtpProofRequest protocol.ZeroKnowledgeProofRequest
 mtpProofRequest.ID = 1
@@ -219,9 +216,6 @@ async function GetAuthRequest(req, res) {
 
   // Generate request for basic authentication
   const request = auth.createAuthorizationRequest("test flow", audience, uri);
-
-  request.id = "7f38a193-0918-4a48-9fac-36adfdb8b542";
-  request.thid = "7f38a193-0918-4a48-9fac-36adfdb8b542";
 
   // Add request for a specific proof
   const proofRequest = {
